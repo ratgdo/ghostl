@@ -16,8 +16,16 @@
         }
     ],
     "license": "LGPL-2.1+",
-    "frameworks": "arduino",
+    "frameworks": ["arduino", "espidf"],
     "platforms": [
         "espressif8266", "espressif32"
-    ]
+    ],
+    "export": {
+        "include": [
+            "src/*.h"
+        ]
+    },
+    "build": {
+        "includeDir": "src"
+    }
 }

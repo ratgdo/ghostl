@@ -1,0 +1,5 @@
+version: "1.0.1"
+description: "Lock-free queue; C++ coroutines; and a nano-sized C++ STL adapter for MCUs like ESP8266/ESP32"
+url: "https://github.com/dok-net/ghostl"
+dependencies:
+  idf: ">=4.0"
